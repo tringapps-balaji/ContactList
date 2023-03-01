@@ -5,7 +5,7 @@ import java.util.Scanner;
 class ContactList {
     public static void main (String []args) {
         int choice = 0;
-        Hashtable<String, Contact> hash = new Hashtable<>();
+        HashtMap<String, Contact> hash = new HashMap<>();
         Scanner sc = new Scanner(System.in);
         System.out.println(" Welcome to Contact List ");
 
